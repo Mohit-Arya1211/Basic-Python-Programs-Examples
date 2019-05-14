@@ -10,5 +10,6 @@ n = int(input())
         for i in range(0, n):
             x = int(input())
             a.append(x)
+            
 b = sum_arr(a, n)
 print(b)
