@@ -4,6 +4,7 @@ def sum_arr(arr, size):
 
    else:
      return arr[size-1] + sum_arr(arr, size-1)
+
 n = int(input())
       a = []
         for i in range(0, n):
